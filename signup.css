@@ -1,0 +1,93 @@
+body{
+	background: url(./background-image.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.navbar{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.navdiv{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	font-family: sans-serif;
+	
+}
+li a{
+	text-decoration: none;
+	margin-right: 25px;
+	color: rgb(26, 20, 20);
+}
+.logo img{
+	height: 46px;
+	width: 46px;
+	border-radius: 50%;
+}
+h2{
+	text-align: center;
+}
+.container{
+	position: relative;
+	height: 500px;
+	width: 350px;
+	margin: auto;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	border-radius: 5px;
+	padding: 40px;
+}
+.div-form{
+	box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	height: 450px;
+}
+.form-name{
+	display: flex;
+	justify-content: space-between;
+}
+label{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.form input{
+	width: 90%;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+
+}
+.form-gender input{
+	margin-left: 10px;
+
+}
+button{
+	width: 90%;
+	border-radius: 5px;
+	background-color: green;
+	margin-left: 10px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 90%;
+  padding: 5px;
+  margin: 5px 5px 20px 5px;
+  border: none;
+  background: #eee;
+}
+.form-name input{
+	width: 150px;
+	margin-left: 10px;
+	margin-right: 25px;
+	border-radius: 5px;
+	border: none;
+}

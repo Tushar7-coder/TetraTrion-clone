@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Signup</title>
+	<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo">
+				<img src="./logo.jpeg" alt="logo">
+			</div>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./login.html">Login</a></li>
+				<li><a href="./signup.html">Signin</a></li>
+				<li><a href="./userInfo.html">UserInformation</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="div-form">
+			<h2>Register</h2>
+			<form>
+				<div class="form-name">
+					<div>
+						<label for="firstname">First Name:</label>
+						<input type="text" id="firstname">
+					</div>
+					<div>
+						<label for="lastname">Last Name:</label><br>
+						<input type="text" id="lastname">
+					</div>
+				</div>
+				<div class="form">
+					<label for="email">Email:</label><br>
+					<input type="email" id="email">
+				</div>
+				<div class="form">
+					<label for="password">Password:</label><br>
+					<input type="password" id="password">
+				</div>
+				<div class="form">
+					<label for="mobile">Mobile Number:</label><br>
+					<input type="tel" id="mobile">
+				</div>
+				<div class="form-gender">
+					<label for="gender">Gender:</label><br>
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Male:</label>
+					<input type="radio" name="gender" id="female" value="female">
+					<label for="female">Female:</label>
+				</div><br>
+				<button type="submit">Register</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
